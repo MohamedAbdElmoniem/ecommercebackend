@@ -37,7 +37,7 @@ app.use(session({ genid: uuid, secret: "mysecret...." })); // hsh9al el session 
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "*", // el server bta3 el frontend angular app 3shan a3ml allow lel requests mno
+    origin: "https://meanstackecommerce.firebaseapp.com", // el server bta3 el frontend angular app 3shan a3ml allow lel requests mno
     credentials: true // da m3nah en el login response hya5od el token lel frontend
   })
 );
